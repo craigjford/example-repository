@@ -19,7 +19,7 @@ h2 {
 
 #sec-1 {
   background: lightgreen;
-  position: absolute;
+  position: relative;
   left: 300px;
   top: 50px;
 }
