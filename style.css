@@ -31,6 +31,10 @@ a {
   font-weight: bold;
 }
 
+.tolearn {
+  padding: 10px, 500px;
+}
+
 table {
   align-content: center;
   border: 3px solid navy;
