@@ -19,10 +19,14 @@ h2 {
 
 #sec-1 {
   background: lightgreen;
+  position: absolute;
+  left: 300px;
+  top: 50px;
 }
 
 .sec-2 {
-  background: yellow;
+  position: absolute;
+  background: aquamarine;
   text-align: center;
 }
 
@@ -35,6 +39,13 @@ table {
   align-content: center;
   border: 3px solid navy;
   font-size: 1rem;
+}
+
+th {
+  background-color: maroon;
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
 }
 
 tr {
