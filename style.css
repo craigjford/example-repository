@@ -24,6 +24,22 @@ h2 {
   text-align: center;
 }
 
+.underline {
+  border-bottom: 5px solid #999966;
+  font-weight: bold;
+}
+
 table {
+  align-content: center;
+  border: 3px solid green;
+  font-size: 2rem;
   text-align: center;
+}
+
+tr {
+  background-color: lightgray;
+}
+
+td {
+  border: 3px dotted blue;
 }
