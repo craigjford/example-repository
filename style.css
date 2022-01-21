@@ -19,13 +19,9 @@ h2 {
 
 #sec-1 {
   background: lightgreen;
-  position: relative;
-  left: 300px;
-  top: 50px;
 }
 
 .sec-2 {
-  position: absolute;
   background: aquamarine;
   text-align: center;
 }
