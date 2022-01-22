@@ -8,6 +8,24 @@ body {
   padding: 10px, 300px;
 }
 
+div {
+  padding: 10px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+#square {
+  position: relative;
+  top: 150px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  border: 2px solid green;
+  padding: 10px;
+}
+
 h1,
 h2 {
   padding: 10px, 50px;

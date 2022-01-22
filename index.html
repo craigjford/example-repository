@@ -55,8 +55,23 @@
             </div>
         <p></p>
         <br>
-        <div id="photo">
-            <img src="profile.jpg" alt="Profile Pic" height="300" width="300";>
+        <h1>Positioning Elements</h1>
+        <div id="buttons">
+            <button type="button" name="left"
+                onclick="pos(-1,0);">Left</button>
+            <button type="button" name="right"
+                onclick="pos(1,0);">Right</button>
+            <button type="button" name="left"
+                onclick="pos(0,-1);">Up</button>
+            <button type="button" name="right"
+                onclick="pos(0,1);">Down</button>
+            <button type="button" name="hide"
+                onclick="hideSquare();">Hide</button>
+            <button type="button" name="show"
+                onclick="showSquare();">Show</button>
+        </div>
+        <div id="square">
+            <img src="profile.jpg" alt="Profile Pic">
         </div>
         <br>
         <h1>References</h1>
@@ -90,7 +105,7 @@
                         <td>Northrup Grummond</td>
                     </tr>  
                 </table>
-           </div>
+           </div>   
         <h1>Bottom</h1>
         <a href="#top">Back to top</a>
         <script src="script.js"></script>
