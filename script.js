@@ -6,19 +6,19 @@ document.querySelector("h2").textContent = "This content added by JavaScript";
 function mousestatus(e) {
     if (!e) e = window.event;
     btn = e.button;
-    switch(btn) {
-        case 0:
-            whichone = "Left";
-            break;
-        case 1:
-            whichone = "Middle";
-            break;
-        case 2:
-            whichone = "Right";
-            break;
-        default:
-            whichone = "UNKNOWN";
+    if (btn === 0) {
+        whichone = "Left";
+        break;
+    }  else if (btn === 1) {
+        whichone = "Middle";
+        break;
+    }  else if (btn === 2) {
+        whichone = "Right";
+        break;
+    }  else {
+        whichone = "UNKNOWN"
     }
+
     message = e.type + " : " + whichone + "<br>";
     document.getElementById('testarea').innerHTML += message;
     e.preventDefault();
