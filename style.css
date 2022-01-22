@@ -25,13 +25,6 @@ a {
   text-align: center;
 }
 
-.piclink {
-  cursor: pointer;
-  text-decoration: none;
-  font-weight: bold;
-  color: #e03a3e;
-}
-
 #sec-1 {
   background: lightgreen;
 }
