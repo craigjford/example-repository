@@ -26,6 +26,16 @@ div {
   padding: 10px;
 }
 
+#photo {
+  position: relative;
+  top: 10px;
+  left: 400px;
+  width: 150px;
+  height: 150px;
+  border: 2px navy;
+  padding: 10px;
+}
+
 h1,
 h2 {
   padding: 10px, 50px;

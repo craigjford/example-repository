@@ -12,16 +12,7 @@ function pos(dx,dy) {
     obj.style.top = y + "px";
     obj.style.left = x + "px";
 }
-function hidesquare() {
-    if (!document.getElementById) return;
-    obj = document.getElementById("square");
-    obj.style.display="none";
-}
-function showsquare() {
-    if (!document.getElementById) return;
-    obj = document.getElementById("square");
-    obj.style.display="block";
-}
+
 
 
 
