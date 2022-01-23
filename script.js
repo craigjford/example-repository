@@ -3,7 +3,7 @@ const h2 = document.createElement("h2");
 document.querySelector("body").appendChild(h2);
 document.querySelector("h2").textContent = "This content added by JavaScript";
 
-var x=0, y=0;
+var x, y;
 function pos(dx,dy) {
     if (!document.getElementById) return;
     x += 30*dx;
