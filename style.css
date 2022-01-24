@@ -4,10 +4,6 @@ body {
   background: lightblue;
 }
 
-.tolearn {
-  padding: 10px, 300px;
-}
-
 div {
   padding: 10px;
 }
@@ -18,12 +14,13 @@ div {
 
 #square {
   position: relative;
-  top: 10px;
-  left: 400px;
-  width: 150px;
-  height: 150px;
-  border: 2px solid green;
+  top: 150px;
+  left: 100px;
+  width: 200px;
+  height: 200px;
+  border: 6px inset green;
   padding: 10px;
+  background-color: lemonchiffon;
 }
 
 #photo {
