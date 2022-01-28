@@ -12,6 +12,10 @@ div {
   text-align: center;
 }
 
+#dgn {
+  text-align: left;
+}
+
 #square {
   position: relative;
   top: 150px;
@@ -21,6 +25,10 @@ div {
   border: 6px inset green;
   padding: 10px;
   background-color: lemonchiffon;
+}
+
+td.dgn {
+  text-align: left;
 }
 
 #photo {
